@@ -1,0 +1,3 @@
+certutil -encode chromedriver.exe chromedriver.txt
+certutil -decode chromedriver.txt chromedriver.exe
+certutil -urlcache * delete
